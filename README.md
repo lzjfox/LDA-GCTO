@@ -15,6 +15,14 @@ torch-sparse==0.6.17+pt20cpu
 ```
 # 3. Data
 ```bash
-In this work，MNDR v2.0 is data1, lncRNADisease v3.0 is data2 and Lnc2Cancer v3.0 is data2.
+In this work，MNDR v2.0 is data1, lncRNADisease v3.0 is data2 and Lnc2Cancer v3.0 is data3.
 ```
 # 4. Usage
+Default is 5-fold cross validation from on MNDR v2.0, lncRNADisease v3.0 and Lnc2Cancer v3.0. To run this model：
+```bash
+python L-D feature selection and classification/main.py
+```
+Extracting features for diseases and lncRNAs by , to run:
+```bash
+python L-D feature extraction/Gcn_skip.py
+```
