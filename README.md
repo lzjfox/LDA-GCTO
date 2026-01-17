@@ -8,6 +8,7 @@ Deciphering lncRNA-disease associations (LDAs) is crucial for understanding dise
 python version 3.9.18 
 numpy==1.23.2
 pandas==2.1.4
+scikit-learn==1.6.1
 torch==1.6.1+pt20cpu
 torch-geometric==2.6.1            
 torch-scatter==2.1.1+pt20cpu   
@@ -18,11 +19,11 @@ torch-sparse==0.6.17+pt20cpu
 In this work，MNDR v2.0 is data1, lncRNADisease v3.0 is data2 and Lnc2Cancer v3.0 is data3.
 ```
 # 4. Usage
-Default is 5-fold cross validation from on MNDR v2.0, lncRNADisease v3.0 and Lnc2Cancer v3.0. To run this model：
+Default is 5-fold cross validation from four strategy (ie.S1, S2, S3, and S4) on MNDR v2.0, lncRNADisease v3.0 and Lnc2Cancer v3.0 databases. To run this model：
 ```bash
 python L-D feature selection and classification/main.py
 ```
-Extracting features for diseases and lncRNAs by , to run:
+Extracting features for diseases and lncRNAs by multi-layer graph convolution with skip connections, to run:
 ```bash
 python L-D feature extraction/Gcn_skip.py
 ```
