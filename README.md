@@ -4,8 +4,15 @@ Deciphering lncRNA-disease associations (LDAs) is crucial for understanding dise
 ![Figure 1:The flowchart of LDA-GCTO](Fig.png)
 
 # 2. Running environment
----
-
+```bash
+python version 3.9.18 
+numpy==1.23.2
+pandas==2.1.4
+torch==1.6.1+pt20cpu
+torch-geometric==2.6.1            
+torch-scatter==2.1.1+pt20cpu   
+torch-sparse==0.6.17+pt20cpu   
+ 
 ## 🚀 快速开始
 
 ### 环境依赖
