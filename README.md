@@ -27,3 +27,8 @@ Extracting features for diseases and lncRNAs by multi-layer graph convolution wi
 ```bash
 python L-D feature extraction/Gcn_skip.py
 ```
+# 4.Details
+Similarity computation for lncRNA functional similarity and disease semantic similarity is measured based on the IDSSIM method.(Fan, W.; Shang, J.; Li, F.; Sun, Y.; Yuan, S.; Liu, J.-X. IDSSIM: an lncRNA functional
+similarity calculation model based on an improved disease semantic similarity method. BMC bioinformatics 2020, 21, 1–14. https://doi.org/10.1186/s12859-020-03699-9)
+
+) 
