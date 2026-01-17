@@ -13,9 +13,8 @@ torch-geometric==2.6.1
 torch-scatter==2.1.1+pt20cpu   
 torch-sparse==0.6.17+pt20cpu   
  
-## 🚀 快速开始
-
-### 环境依赖
+# 3. Data
 ```bash
-# 建议 Python >= 3.8
-pip install torch pandas numpy scikit-learn matplotlib
+In this work，MNDR v2.0 is data1, lncRNADisease v3.0 is data2 and Lnc2Cancer v3.0 is data2.
+
+# 4. Usage
